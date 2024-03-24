@@ -17,6 +17,6 @@ jobs:
     - name: Dispatch event
       uses: peter-evans/repository-dispatch@v1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}  
+        token: ${{ secrets.ACCESS_TOKEN }}  
         repository: AutismSuperman/hexo-blog
         event-type: hexo-event
